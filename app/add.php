@@ -84,7 +84,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       <textarea name="description" rows="5" placeholder="Task Description" required></textarea>
       <button type="submit">ADD TASK </button>
     </form>
-    <a href="index.php">BACK TO LIST</a>
+    <a href="index.php">BACK</a>
   </div>
 </body>
 </html>
