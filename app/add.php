@@ -82,7 +82,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <form action="add.php" method="POST">
       <input type="text" name="title" placeholder="Task Title" required />
       <textarea name="description" rows="5" placeholder="Task Description" required></textarea>
-      <button type="submit">Add Task</button>
+      <button type="submit">Add</button>
     </form>
     <a href="index.php">Back to List</a>
   </div>
