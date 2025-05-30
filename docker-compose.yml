@@ -5,7 +5,7 @@ services:
     build: .
     container_name: taskmanager_ci_web
     ports:
-      - "8081:80"                  # Changed host port to avoid conflicts
+      - "8081:80"                  # Changed host port to avoid conflicts!
     volumes:
       - ./app:/var/www/html       # Code volume mounted here
     depends_on:
